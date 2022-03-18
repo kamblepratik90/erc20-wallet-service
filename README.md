@@ -17,7 +17,7 @@ Please check [doc/rest.http](doc/rest.http), the api avaailable is
 - info token
 - send token
 
-
+```
 const config = require('../config');
 const abi = require('../config/erc20abi');
 const Web3 = require('web3');
@@ -46,4 +46,4 @@ tokenContract.events.allEvents({fromBlock: 0, toBlock: "latest"}, function(error
 
     }
 })
-
+```
